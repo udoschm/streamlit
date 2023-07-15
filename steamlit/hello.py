@@ -3,7 +3,7 @@ from streamlit_extras.switch_page_button import switch_page
 
 st.set_page_config(
     page_title="Hello",
-    page_icon="👋",
+    page_icon="🖥️",
     initial_sidebar_state="collapsed",
 )
 
@@ -15,7 +15,7 @@ hide_streamlit_style = """
             """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
-st.write("# KI-Passwortfracking Analyse 👋")
+st.write("# KI-Passwortfracking Analyse 🖥️")
 
 st.markdown(
     """
