@@ -29,7 +29,10 @@ st.markdown(
     als die KI. Anstatt sich an gegebenen Passwörtern zu trainieren, folgt es bestimmten Regeln, die im
     vorhinein festgelegt werden können. Das ist ein relativ simpler Ansatz, liefert aber in kürzester Zeit viele
     Passwörter.
-    Im folgenden werden die Ergebnisse aufgezeigt.
+    Die KI hat hat mit unterschiedlich vielen Iterationen, Passwortlisten generiert.
+    Grundlage für die Generation war die Rockyou Passwortliste.
+    Diese wurde auch für Hashcat benutzt, hier wurde einmal eine Regel mit 17 Regeln angewendet und einmal mit 64 Regeln.
+    Das Angriffsziele war ein LinkedIN Leak.
 
     """
 )
