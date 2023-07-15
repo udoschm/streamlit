@@ -24,7 +24,6 @@ st.markdown(
     Die Datei alleine konnte bereits 4,85% der Passwörter knacken.\
     
     | Enthaltene Passwörter | 26 067 879         |
-    |-----------------------|--------------------|
     | Gecrackte Passwörter  | 2 937 754 (4.85%)  |
     
     
