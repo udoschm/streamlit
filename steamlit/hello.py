@@ -20,10 +20,10 @@ st.write("# KI-Passwortfracking Analyse 👋")
 st.markdown(
     """
     Künstliche Intelligenzen werden heutzutage für nahezu alles eingesetzt. Jeder kann sich einen Text, Bilder
-    oder sogar Videos erzeugen lassen.\
+    oder sogar Videos erzeugen lassen.\\
     Der nächste logische Schritt wäre es, eine KI für das knacken von Passwörtern einzusetzen. Genau das macht
     dieses Projekt. Es verwendet eine KI, ein Generative Adversarial Network um genau zu sein um aus einer
-    Passwortliste mehr sinvoll erzeugte Passwörter zu generieren.\
+    Passwortliste mehr sinvoll erzeugte Passwörter zu generieren.\\
     Um vergleichen zu können wie sinnvoll es ist für so eine Aufgabe eine KI zu verwenden, wird als Gegenspieler
     das sehr beim Passwortcracking verbreitete Tool Hashcat verwendet. Hashcat funktioniert fundamental anders
     als die KI. Anstatt sich an gegebenen Passwörtern zu trainieren, folgt es bestimmten Regeln, die im
