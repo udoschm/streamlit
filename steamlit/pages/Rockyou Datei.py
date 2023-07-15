@@ -69,5 +69,14 @@ st.markdown(
 image = "steamlit/images/crackedpw_train_cut_percentage_distribution_of_letters.jpg"
 st.image(image, "Verteilung der Zeichen")
 
+st.markdown(
+    """
+    <div style="display: flex; justify-content: center;">
+        <button style="width: 200px;">Zurück</button>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
 if st.button("Zurück"):
     switch_page("hello")
