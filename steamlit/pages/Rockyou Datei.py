@@ -25,6 +25,7 @@ st.markdown(
     | Enthaltene Passwörter | 26 067 879         |
     |-----------------------|--------------------|
     | Gecrackte Passwörter  | 2 937 754 (4.85%)  |
+    \\
     """
 )
 
