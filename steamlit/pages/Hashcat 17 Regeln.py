@@ -18,7 +18,7 @@ st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 st.write("# Hashcat 17 Regeln 👋")
 
-image = "images/68_linkedin_found_without_hashes_utf-8_repair_cracktime.jpg"
+image = "steamlit/images/68_linkedin_found_without_hashes_utf-8_repair_cracktime.jpg"
 st.image(image, output_format="JPG")
 
 if st.button("Zurück"):
