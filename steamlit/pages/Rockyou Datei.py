@@ -22,11 +22,11 @@ st.markdown(
     """
     Die Rockyou Datei wurde als Basis für die KI und die Hashcat-Regeln benutzt.\
     Die Datei alleine konnte bereits 4,85% der Passwörter knacken.\
-    <center>
-    | Enthaltene Passwörter | 26 067 879         |
+    
+    <center>| Enthaltene Passwörter | 26 067 879         |
     |-----------------------|--------------------|
-    | Gecrackte Passwörter  | 2 937 754 (4.85%)  |
-    <\center>
+    | Gecrackte Passwörter  | 2 937 754 (4.85%)  | <\center>
+   
     
     """
 )
