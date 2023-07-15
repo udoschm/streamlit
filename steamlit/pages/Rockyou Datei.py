@@ -18,6 +18,17 @@ st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 st.write("# Rockyou Datei👋")
 
+st.markdown(
+    """
+    | vernachlässigbar  | x |
+    |-------------------|---|
+    | begrenzt          | x |
+    | beträchtlich      | x |
+    | existenzbedrohend | x |
+    """
+)
+
+
 image = "steamlit/images/crackedpw_train_cut_cracktime.jpg"
 st.image(image, caption='Cracktime')
 

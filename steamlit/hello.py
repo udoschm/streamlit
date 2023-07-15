@@ -36,7 +36,6 @@ st.markdown(
 
     """
 )
-import streamlit as st
 
 # Buttons nebeneinander anordnen
 col1, col2, col3 = st.columns(3)
