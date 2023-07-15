@@ -18,7 +18,16 @@ st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 st.write("# Rockyou Datei👋")
 
-image = "steamlit/images/68_linkedin_found_without_hashes_utf-8_repair_cracktime.jpg"
+image = "steamlit/images/crackedpw_train_cut_cracktime.jpg"
+st.image(image, output_format="JPG")
+
+image = "steamlit/images/crackedpw_train_cut_pw_complexity.jpg"
+st.image(image, output_format="JPG")
+
+image = "steamlit/images/crackedpw_train_cut_normalverteilung_passwortlänge.jpg"
+st.image(image, output_format="JPG")
+
+image = "steamlit/images/crackedpw_train_cut_percentage_distribution_of_letters.jpg"
 st.image(image, output_format="JPG")
 
 if st.button("Zurück"):
