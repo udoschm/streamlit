@@ -68,8 +68,8 @@ st.markdown(
 image = "steamlit/images/crackedpw_train_cut_percentage_distribution_of_letters.jpg"
 st.image(image, "Verteilung der Zeichen")
 
-col1, col2, col3 = st.columns([1, 2, 1])
+col1 = st.columns([1])
 
-with col2:
+with col1:
     if st.button("Zurück"):
         switch_page("hello")
