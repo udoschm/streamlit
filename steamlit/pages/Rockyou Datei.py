@@ -42,9 +42,10 @@ image = "steamlit/images/crackedpw_train_cut_cracktime.jpg"
 st.image(image, caption='Cracktime')
 
 st.markdown(
-    """
-    Hallo! Ich bin Text!
-    """
+    """Man kann anhand der Cracktime erkennen, das hauptsächlich Passwörter gecrackt worden sind, welche eine 
+    niedrige Cracktime besitzen. Dies hängt damit zusammen, das die Passwörter relativ kurz sind. Die meisten 
+    Passwörter haben 6 Zeichen. Daraus lässt sich wiederrum eine niedirge Entropie ableiten. Des weiteren beinhalteten 
+    die passwörter hauptsächlich Kleinbuchstaben und Zahlen."""
 )
 
 image = "steamlit/images/crackedpw_train_cut_pw_complexity.jpg"
