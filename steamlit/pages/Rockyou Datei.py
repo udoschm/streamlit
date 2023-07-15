@@ -40,8 +40,8 @@ st.markdown(
     """
 )
 
-image = "steamlit/images/crackedpw_train_cut_cracktime.jpg"
-st.image(image, caption='Cracktime')
+image = "steamlit/images/crackedpw_train_cut_cracktime.svg"
+st.image(image, format="svg", caption='Cracktime')
 
 st.markdown(
     """Man kann anhand der Cracktime erkennen, das hauptsächlich Passwörter gecrackt worden sind, welche eine 
