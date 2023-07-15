@@ -31,7 +31,6 @@ st.markdown(
     """
 )
 
-
 st.markdown(
     """
     Die folgenden Diagramme beziehen sich auf die Passwörter, welche durch die Liste geknackt worden sind.
@@ -69,14 +68,8 @@ st.markdown(
 image = "steamlit/images/crackedpw_train_cut_percentage_distribution_of_letters.jpg"
 st.image(image, "Verteilung der Zeichen")
 
-st.markdown(
-    """
-    <div style="display: flex; justify-content: center;">
-        <button style="width: 200px;">Zurück</button>
-    </div>
-    """,
-    unsafe_allow_html=True
-)
+col1, col2, col3 = st.columns([1, 2, 1])
 
-if st.button("Zurück"):
-    switch_page("hello")
+with col2:
+    if st.button("Zurück"):
+        switch_page("hello")
