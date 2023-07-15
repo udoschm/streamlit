@@ -22,15 +22,26 @@ st.markdown(
     In diesem Projekt geht es um lalala
     """
 )
-if st.button("KI-200-Interrationen"):
+import streamlit as st
+
+# Buttons nebeneinander anordnen
+col1, col2, col3 = st.columns(3)
+
+if col1.button("KI-200-Iterationen"):
     switch_page("KI-200 Iterationen")
-if st.button("KI-500-Interrationen"):
+if col2.button("KI-500-Iterationen"):
     switch_page("KI-500 Iterationen")
-if st.button("KI-750-Interrationen"):
+if col3.button("KI-750-Iterationen"):
     switch_page("KI-750 Iterationen")
-if st.button("Hashcat 17 Regeln"):
+
+# Weitere Buttons hinzufügen
+col4, col5, col6 = st.columns(3)
+
+if col4.button("Hashcat 17 Regeln"):
     switch_page("Hashcat 17 Regeln")
-if st.button("Hashcat Best 64 Regel"):
+if col5.button("Hashcat Best 64 Regel"):
     switch_page("Hashcat Best 64 Regel")
-if st.button("Rockyou Datei"):
+if col6.button("Rockyou Datei"):
     switch_page("Rockyou Datei")
+
+
