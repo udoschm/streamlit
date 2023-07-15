@@ -50,8 +50,8 @@ st.markdown(
     die passwörter hauptsächlich Kleinbuchstaben und Zahlen."""
 )
 
-image = "steamlit/images/crackedpw_train_cut_pw_complexity.jpg"
-st.image(image, caption='Passwortkomplexität')
+image = "steamlit/images/crackedpw_train_cut_pw_complexity.svg"
+st.image(image, format="svg",  caption='Passwortkomplexität')
 
 st.markdown(
     """
@@ -59,8 +59,8 @@ st.markdown(
     """
 )
 
-image = "steamlit/images/crackedpw_train_cut_normalverteilung_passwortlänge.jpg"
-st.image(image, caption='Passwortlänge')
+image = "steamlit/images/crackedpw_train_cut_normalverteilung_passwortlänge.svg"
+st.image(image, format="svg", caption='Passwortlänge')
 
 st.markdown(
     """
@@ -68,8 +68,8 @@ st.markdown(
     """
 )
 
-image = "steamlit/images/crackedpw_train_cut_percentage_distribution_of_letters.jpg"
-st.image(image, "Verteilung der Zeichen")
+image = "steamlit/images/crackedpw_train_cut_percentage_distribution_of_letters.svg"
+st.image(image, format="svg", caption= "Verteilung der Zeichen")
 
 if st.button("Zurück"):
     switch_page("hello")
