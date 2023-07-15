@@ -40,8 +40,8 @@ st.markdown(
     """
 )
 
-image = "steamlit/images/crackedpw_train_cut_cracktime.svg"
-st.image(image, format="svg", width=1, caption='Cracktime', output_format="JPEG")
+image = "steamlit/images/crackedpw_train_cut_cracktime.jpg"
+st.image(image, caption='Cracktime')
 
 st.markdown(
     """Man kann anhand der Cracktime erkennen, das hauptsächlich Passwörter gecrackt worden sind, welche eine 
@@ -50,8 +50,8 @@ st.markdown(
     die passwörter hauptsächlich Kleinbuchstaben und Zahlen."""
 )
 
-image = "steamlit/images/crackedpw_train_cut_pw_complexity.svg"
-st.image(image, format="svg",  caption='Passwortkomplexität')
+image = "steamlit/images/crackedpw_train_cut_pw_complexity.jpg"
+st.image(image, caption='Passwortkomplexität')
 
 st.markdown(
     """
@@ -59,8 +59,8 @@ st.markdown(
     """
 )
 
-image = "steamlit/images/crackedpw_train_cut_normalverteilung_passwortlänge.svg"
-st.image(image, format="svg", caption='Passwortlänge')
+image = "steamlit/images/crackedpw_train_cut_normalverteilung_passwortlänge.jpg"
+st.image(image, caption='Passwortlänge')
 
 st.markdown(
     """
@@ -68,8 +68,8 @@ st.markdown(
     """
 )
 
-image = "steamlit/images/crackedpw_train_cut_percentage_distribution_of_letters.svg"
-st.image(image, format="svg", caption= "Verteilung der Zeichen")
+image = "steamlit/images/crackedpw_train_cut_percentage_distribution_of_letters.jpg"
+st.image(image, "Verteilung der Zeichen")
 
 if st.button("Zurück"):
     switch_page("hello")
