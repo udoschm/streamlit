@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 from streamlit_extras.switch_page_button import switch_page
-
+import pandas as pd
 st.set_page_config(
     page_title="Rockyou Datei",
     page_icon="📈",
@@ -20,7 +20,7 @@ st.write("# Rockyou Datei👋")
 
 st.markdown(
     """
-    <center>
+    
     Die Rockyou Datei wurde als Basis für die KI und die Hashcat-Regeln benutzt.\
     Die Datei alleine konnte bereits 4,85% der Passwörter knacken.\
 
@@ -28,10 +28,17 @@ st.markdown(
     |-----------------------|--------------------|
     | Gecrackte Passwörter  | 2 937 754 (4.85%)  |
 
-    </center>
+    
     """,
     unsafe_allow_html=True
 )
+
+data = {
+    'Enthaltene Passwörter': ['26 067 879'],
+    'Gecrackte Passwörter': ['2 937 754 (4.85%)']
+}
+
+df = pd.DataFrame(data)
 
 st.markdown(
     """
