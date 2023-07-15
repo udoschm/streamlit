@@ -29,6 +29,7 @@ st.markdown(
     als die KI. Anstatt sich an gegebenen Passwörtern zu trainieren, folgt es bestimmten Regeln, die im
     vorhinein festgelegt werden können. Das ist ein relativ simpler Ansatz, liefert aber in kürzester Zeit viele
     Passwörter.
+    Im folgenden werden die Ergebnisse aufgezeigt.
 
     """
 )
