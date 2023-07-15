@@ -2,7 +2,7 @@ import streamlit as st
 from streamlit_extras.switch_page_button import switch_page
 
 st.set_page_config(
-    page_title="Hello",
+    page_title="KI-Passwortcracking",
     page_icon="🖥️",
     initial_sidebar_state="collapsed",
 )
@@ -15,7 +15,7 @@ hide_streamlit_style = """
             """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
-st.write("# KI-Passwortfracking Analyse 🖥️")
+st.write("# Passwortcracking mit Hilfe von künstlicher Intelligenz 🖥️")
 
 st.markdown(
     """
