@@ -4,6 +4,7 @@ st.set_page_config(
     page_title="Rockyou Datei",
     page_icon="📈",
     initial_sidebar_state="collapsed",
+    layout="wide"
 )
 
 hide_streamlit_style = """
