@@ -16,7 +16,9 @@ st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 st.write("# Rockyou Datei👋")
 
-st.markdown(
+col1, col2 = st.columns(2)
+
+col1.st.markdown(
     """
     
     Die Rockyou Datei wurde als Basis für die KI und die Hashcat-Regeln benutzt.\
@@ -34,7 +36,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.markdown(
+col2.st.markdown(
     """
     Die folgenden Diagramme beziehen sich auf die Passwörter, welche durch die Liste geknackt worden sind.
     """
