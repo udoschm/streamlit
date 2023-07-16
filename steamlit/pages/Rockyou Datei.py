@@ -19,14 +19,33 @@ st.write("# Rockyou Datei👋")
 
 
 # Picture and Text
+col0, col99 = st.columns(2)
+
+col0.markdown(
+    """
+    Die Rockyou Datei wurde als Basis für die KI und die Hashcat-Regeln benutzt.\
+    Die Datei alleine konnte bereits 4,85% der Passwörter knacken.\
+
+    <div align="center">
+
+    | Enthaltene Passwörter | 26 067 879         |
+    |-----------------------|--------------------|
+    | Gecrackte Passwörter  | 2 937 754 (4.85%)  |
+
+    </div>
+    
+    """
+)
+
+
+# Picture and Text
 col1, col2 = st.columns(2)
 
 image = "steamlit/images/crackedpw_train_cut_cracktime.jpg"
 col1.image(image, caption='Cracktime', use_column_width=True)
 
 col2.markdown(
-    """
-    
+    """  
     Die Rockyou Datei wurde als Basis für die KI und die Hashcat-Regeln benutzt.\
     Die Datei alleine konnte bereits 4,85% der Passwörter knacken.\
 
