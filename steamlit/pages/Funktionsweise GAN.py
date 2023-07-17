@@ -50,6 +50,11 @@ st.markdown(
 image = "steamlit/images/GAN.png"
 st.image(image, caption='GAN Struktur', use_column_width=True)
 
+
+if st.button("Zurück"):
+    switch_page("Home")
+
+
 st.divider()
 st.markdown(
     """
@@ -65,6 +70,3 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-
-if st.button("Zurück"):
-    switch_page("Home")
