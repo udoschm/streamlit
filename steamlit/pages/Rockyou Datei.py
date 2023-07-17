@@ -15,25 +15,36 @@ hide_streamlit_style = """
             """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
-st.write("# Rockyou Datei👋")
-
+st.markdown(
+    """
+    <h1 style='text-align: center;'>
+    rockyou.txt Datei👋
+    </h1>
+    """,
+    unsafe_allow_html=True
+)
 
 # Picture and Text
 col0, col99 = st.columns(2)
 
 col0.markdown(
     """
-    Die Rockyou Datei wurde als Basis für die KI und die Hashcat-Regeln benutzt.\
-    Die Datei alleine konnte bereits 4,85% der Passwörter knacken.\
-
     <div align="center">
 
     | Enthaltene Passwörter | 26 067 879         |
     |-----------------------|--------------------|
     | Gecrackte Passwörter  | 2 937 754 (4.85%)  |
 
-    </div>
-    
+    </div><br>
+    """,
+    unsafe_allow_html=True
+)
+
+
+col99.markdown(
+    """
+    Die Rockyou Datei wurde als Basis für die KI und die Hashcat-Regeln benutzt.\
+    Die Datei alleine konnte bereits 4,85% der Passwörter knacken.\
     """
 )
 
@@ -45,25 +56,13 @@ image = "steamlit/images/crackedpw_train_cut_cracktime.jpg"
 col1.image(image, caption='Cracktime', use_column_width=True)
 
 col2.markdown(
-    """  
-    Die Rockyou Datei wurde als Basis für die KI und die Hashcat-Regeln benutzt.\
-    Die Datei alleine konnte bereits 4,85% der Passwörter knacken.\
-
-    <div align="center">
-
-    | Enthaltene Passwörter | 26 067 879         |
-    |-----------------------|--------------------|
-    | Gecrackte Passwörter  | 2 937 754 (4.85%)  |
-
-    </div>
-    
+    """      
     Die folgenden Diagramme beziehen sich auf die Passwörter, welche durch die Liste geknackt worden sind.
     Man kann anhand der Cracktime erkennen, das hauptsächlich Passwörter gecrackt worden sind, welche eine 
     niedrige Cracktime besitzen. Dies hängt damit zusammen, das die Passwörter relativ kurz sind. Die meisten 
     Passwörter haben 6 Zeichen. Daraus lässt sich wiederrum eine niedirge Entropie ableiten. Des weiteren beinhalteten 
     die passwörter hauptsächlich Kleinbuchstaben und Zahlen.
-    """,
-    unsafe_allow_html=True
+    """
 )
 
 

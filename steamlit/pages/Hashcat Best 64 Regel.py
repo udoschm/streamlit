@@ -17,7 +17,14 @@ hide_streamlit_style = """
             """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
-st.write("# Hashcat Best 64 Regel 👋")
+st.markdown(
+    """
+    <h1 style='text-align: center;'>
+    Hashcat Best 64 Regel 👋
+    </h1>
+    """,
+    unsafe_allow_html=True
+)
 
 # Picture and Text
 col1, col2 = st.columns(2)
@@ -79,7 +86,6 @@ col8.markdown(
     Hallo! Ich bin Text!
     """
 )
-
 
 
 image = "steamlit/images/68_linkedin_found_without_hashes_utf-8_repair_cracktime.jpg"
