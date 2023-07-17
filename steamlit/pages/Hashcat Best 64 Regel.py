@@ -92,6 +92,6 @@ image = "steamlit/images/68_linkedin_found_without_hashes_utf-8_repair_cracktime
 st.image(image, output_format="JPG")
 
 if st.button("Zurück"):
-    switch_page("hello")
+    switch_page("Home")
 
 
