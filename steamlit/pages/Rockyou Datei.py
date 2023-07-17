@@ -43,7 +43,11 @@ col0.markdown(
 
 col99.markdown(
     """
-    Die Rockyou Datei wurde als Basis für die KI und die Hashcat-Regeln benutzt.\
+    In 2009 wurde eine Firma mit dem Namen RockYou gehackt und die dort hinterlegten Passwörter gestohlen. Das hätte 
+    kein Problem dargestellt, wenn die Passwörter nicht im Klartext, also für jeden lesbar, gespeichert worden wären.\
+    Diese Datei wurde im Verlauf dieses Projekts als Ausgangsdatei verwendet, heißt, die verwendete KI wurde an diesen
+    Passwörtern trainiert. Auch Hashcat hat nur die `rockyou.txt` verwendet, um anhand von festgelegten Regeln eine neue
+    Passwortliste zu erstellen.\
     Die Datei alleine konnte bereits 4,85% der Passwörter knacken.\
     """
 )
