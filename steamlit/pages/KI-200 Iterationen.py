@@ -6,6 +6,7 @@ st.set_page_config(
     page_title="KI-200 Iterationen",
     page_icon="📈",
     initial_sidebar_state="collapsed",
+    layout="wide"
 )
 
 hide_streamlit_style = """

@@ -17,24 +17,24 @@ st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 st.write("# Passwortcracking mit Hilfe von künstlicher Intelligenz 🖥️")
 
+
+
 st.markdown(
     """
-    Künstliche Intelligenzen werden heutzutage für nahezu alles eingesetzt. Jeder kann sich einen Text, Bilder
-    oder sogar Videos erzeugen lassen.\\
-    Der nächste logische Schritt wäre es, eine KI für das knacken von Passwörtern einzusetzen. Genau das macht
-    dieses Projekt. Es verwendet eine KI, ein Generative Adversarial Network um genau zu sein um aus einer
-    Passwortliste mehr sinvoll erzeugte Passwörter zu generieren.\\
-    Um vergleichen zu können wie sinnvoll es ist für so eine Aufgabe eine KI zu verwenden, wird als Gegenspieler
-    das sehr beim Passwortcracking verbreitete Tool Hashcat verwendet. Hashcat funktioniert fundamental anders
-    als die KI. Anstatt sich an gegebenen Passwörtern zu trainieren, folgt es bestimmten Regeln, die im
-    vorhinein festgelegt werden können. Das ist ein relativ simpler Ansatz, liefert aber in kürzester Zeit viele
-    Passwörter.
-    Die KI hat hat mit unterschiedlich vielen Iterationen, Passwortlisten generiert.
-    Grundlage für die Generation war die Rockyou Passwortliste.
-    Diese wurde auch für Hashcat benutzt, hier wurde einmal eine Regel mit 17 Regeln angewendet und einmal mit 64 Regeln.
-    Das Angriffsziele war ein LinkedIN Leak.
-
-    """
+    Künstliche Intelligenzen werden heutzutage für nahezu alles eingesetzt, Jeder kann sich einen Text, Bilder oder 
+    sogar Videos erzeugen lassen.
+    Ein nächster Logischer Schritt wäre es, eine KI auch für das raten für Passwörter einzusetzen. 
+    Dieses Projekt macht genau das.\\
+    \\
+    Hierzu wurde ein *Generative Adversarial Network* (GAN) verwendet, um aus einer gegebenen Liste, der `rockyou.txt`, 
+    neue Passwörter zu generieren.
+    Um die KI bewerten zu können, wurde sie mit dem Programm Hashcat verglichen. 
+    Hashcat ist ein sehr verbreitetes Programm, dass primär zur erstellung und knacken von Passwörtern eingesetzt wird.\\
+    \\
+    Als Angriffsziel wurde eine veröffentlichte Datei von LinkedIn verwendet.
+    In ihr stehen ca. 60 Millionen Passwörter.\
+    """,
+    unsafe_allow_html=True
 )
 
 # Buttons nebeneinander anordnen

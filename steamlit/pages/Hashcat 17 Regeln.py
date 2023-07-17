@@ -6,6 +6,7 @@ st.set_page_config(
     page_title="Hashcat 17 Regeln",
     page_icon="📈",
     initial_sidebar_state="collapsed",
+    layout="wide"
 )
 
 
@@ -46,8 +47,7 @@ col0.markdown(
 
 col99.markdown(
     """
-    Die Rockyou Datei wurde als Basis für die KI und die Hashcat-Regeln benutzt.\
-    Die Datei alleine konnte bereits 4,85% der Passwörter knacken.\
+    In diesem Test wurde mithilfe von Hashcat und der Eingangsdatei `rockyou.txt` eine Textdatei mit 
     """
 )
 
