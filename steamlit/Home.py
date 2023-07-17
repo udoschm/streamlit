@@ -57,4 +57,9 @@ if col5.button("Hashcat Best 64 Regel"):
 if col6.button("Rockyou Datei"):
     switch_page("Rockyou Datei")
 
+col7, col8 = st.columns(2)
 
+if col7.button("Funktionsweise GAN"):
+    switch_page("Funktionsweise GAN")
+if col8.button("Funktionsweise Hashcat"):
+    switch_page("Funktionsweise Hashcat")
