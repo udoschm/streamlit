@@ -36,26 +36,31 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+st.divider()
+st.markdown(
+    """
+    ## Vergleich zwischen Hashcat und PassGAN
+    In diesem Abschnitt sind die Ergebnisse dieser Projektarbeit. Es wird Hashcat und PassGAN verglichen. Für diese 
+    Ergebnisse wurde die Künstliche Intelligenz bis zur bestmöglichen Qualität trainiert. Einerseits wurde PassGAN mit 
+    der von uns erweiterten Top 10 Liste verglichen. Der zweite Vergleich Ist gegen die von Hashcat veröffentlichte Best
+    64 Liste. Diese beinhaltet die Besten 64 Regeln von Hashcat.
+    """
+)
 
-# Buttons nebeneinander anordnen
-col1, col2, col3 = st.columns(3)
+hc200, hc201 = st.columns(2)
+if hc200.button("KI 200k vs. Hashcat Top 17"):
+    switch_page("KI 200k vs. Hashcat Top 17")
+if hc201.button("KI 200k vs. Hashcat Best 64"):
+    switch_page("KI 200k vs. Hashcat Best 64")
 
-if col1.button("KI-200-Iterationen"):
-    switch_page("KI-200 Iterationen")
-if col2.button("KI-500-Iterationen"):
-    switch_page("KI-500 Iterationen")
-if col3.button("KI-750-Iterationen"):
-    switch_page("KI-750 Iterationen")
-
-# Weitere Buttons hinzufügen
-col4, col5, col6 = st.columns(3)
-
-if col4.button("Hashcat 17 Regeln"):
-    switch_page("Hashcat 17 Regeln")
-if col5.button("Hashcat Best 64 Regel"):
-    switch_page("Hashcat Best 64 Regel")
-if col6.button("Rockyou Datei"):
-    switch_page("Rockyou Datei")
+st.divider()
+st.markdown(
+    """
+    ## Was ist Hashcat und PassGAN? 
+    Hier werden das Open-Source Tool Hashcat und PassGAN erklärt. Es gibt zu jeden Programm eine kurze Definition und 
+    Erklärung, wie die beiden Programme eigentlich funktionieren.
+    """
+)
 
 col7, col8 = st.columns(2)
 
@@ -63,3 +68,28 @@ if col7.button("Funktionsweise GAN"):
     switch_page("Funktionsweise GAN")
 if col8.button("Funktionsweise Hashcat"):
     switch_page("Funktionsweise Hashcat")
+st.divider()
+
+st.markdown(
+    """
+    ## Mehr Daten!
+    Hier sind alle Daten für sich zu finden, ohne mit anderen Verglichen zu werden. Außerdem wird hier die 
+    Trainingsdatei `rockyou.txt` und die Datei, die Angegriffen wurde gezeigt und beschrieben. 
+    """
+)
+
+# Buttons nebeneinander anordnen
+col1, col2, col3, col4, col5, col6 = st.columns(6)
+
+if col1.button("KI-200-Iterationen"):
+    switch_page("KI-200 Iterationen")
+if col2.button("KI-500-Iterationen"):
+    switch_page("KI-500 Iterationen")
+if col3.button("KI-750-Iterationen"):
+    switch_page("KI-750 Iterationen")
+if col4.button("Hashcat 17 Regeln"):
+    switch_page("Hashcat 17 Regeln")
+if col5.button("Hashcat Best 64 Regel"):
+    switch_page("Hashcat Best 64 Regel")
+if col6.button("Rockyou Datei"):
+    switch_page("Rockyou Datei")
