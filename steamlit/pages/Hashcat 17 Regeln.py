@@ -170,8 +170,14 @@ was diese Verteilung erklärt.
 """
 )
 
-if st.button("Zurück"):
+col15, col16 = st.columns(2)
+col17, col18 = st.columns(2)
+
+if col15.button("Ab zur Hashcat Best 64 Regel"):
+    switch_page("Hashcat Best 64 Regel")
+if col17.button("Zurück"):
     switch_page("Home")
+
 
 st.markdown(
     """
