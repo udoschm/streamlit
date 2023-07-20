@@ -61,6 +61,15 @@ st.markdown(
     unsafe_allow_html=True
 )
 
+
+st.markdown(
+    """
+    #### Was ist ein Generative Adverserial Network (GAN)?
+    """
+)
+
+if st.button("Funktionsweise GAN"):
+    switch_page("Funktionsweise GAN")
 if st.button("Zurück"):
     switch_page("Home")
 

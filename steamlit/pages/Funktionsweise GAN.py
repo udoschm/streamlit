@@ -50,7 +50,14 @@ st.markdown(
 image = "steamlit/images/GAN.png"
 st.image(image, caption='GAN Struktur', use_column_width=True)
 
+st.markdown(
+    """
+    #### Was ist Hashcat?
+    """
+)
 
+if st.button("Funktionsweise Hashcat"):
+    switch_page("Funktionsweise Hashcat")
 if st.button("Zurück"):
     switch_page("Home")
 
