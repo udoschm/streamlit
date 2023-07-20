@@ -79,7 +79,7 @@ st.markdown(
 )
 
 # Buttons nebeneinander anordnen
-col1, col2, col3, col4, col5, col6 = st.columns(6)
+col1, col2, col3 = st.columns(6)
 
 if col1.button("KI-200-Iterationen"):
     switch_page("KI-200 Iterationen")
@@ -87,6 +87,8 @@ if col2.button("KI-500-Iterationen"):
     switch_page("KI-500 Iterationen")
 if col3.button("KI-750-Iterationen"):
     switch_page("KI-750 Iterationen")
+
+col4, col5, col6 = st.columns(3)
 if col4.button("Hashcat 17 Regeln"):
     switch_page("Hashcat 17 Regeln")
 if col5.button("Hashcat Best 64 Regel"):
