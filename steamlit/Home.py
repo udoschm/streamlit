@@ -79,7 +79,7 @@ st.markdown(
 )
 
 # Buttons nebeneinander anordnen
-col1, col2, col3 = st.columns(6)
+col1, col2, col3 = st.columns(3)
 
 if col1.button("KI-200-Iterationen"):
     switch_page("KI-200 Iterationen")
