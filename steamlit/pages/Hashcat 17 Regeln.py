@@ -97,7 +97,7 @@ col5.markdown(
 col6.markdown(
     """
     In den folgenden Absätzen wird der Begriff Entropie angesprochen, dies ist ein Wert welcher 
-    die Sträke eines Passwort deffiniert. Um so höher Entropie Wert ist, um so sicherer wird ein Passwort angesehen.
+    die Stärke eines Passwortes definiert. Um so höher Entropie Wert ist, um so sicherer wird ein Passwort angesehen.
     Der Passwortmanager KeePass stuft die Sicherheit der Passwörter wie folgt ein (siehe linke Tabelle).
 """
 )
