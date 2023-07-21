@@ -69,7 +69,7 @@ col6.markdown(
 
 col7, col8 = st.columns(2)
 
-image = "steamlit/images/rockyou/train_utf-8_repair_pw_complexity.jpg"
+image = "streamlit/images/rockyou/train_utf-8_repair_pw_complexity.jpg"
 col7.image(image, caption='Passwortkomplexität aller Passwörter in der generierten Liste', use_column_width=True)
 
 col8.markdown(
@@ -82,7 +82,7 @@ col8.markdown(
 
 col9, col10 = st.columns(2)
 
-image = "steamlit/images/rockyou/crackedpw_train_cut_repair_pw_complexity.jpg"
+image = "streamlit/images/rockyou/crackedpw_train_cut_repair_pw_complexity.jpg"
 col9.image(image, caption='Passwortkomplexität der geknackten Passwörter', use_column_width=True)
 
 col10.markdown(
@@ -97,7 +97,7 @@ Insgesamt hat die RockYou-Liste 4,85% aller Passwörter, welche in dem LinkedIn-
 
 col11, col12 = st.columns(2)
 
-image = "steamlit/images/rockyou/train_utf-8_repair_normalverteilung_passwortlänge.jpg"
+image = "streamlit/images/rockyou/train_utf-8_repair_normalverteilung_passwortlänge.jpg"
 col11.image(image, caption='Verteilung der Passwortlänge in der Hashcat generierten Liste', use_column_width=True)
 
 col12.markdown(
@@ -110,7 +110,7 @@ Lediglich 9,13% der Passwörter sind länger als 10 Zeichen.
 
 col13, col14 = st.columns(2)
 
-image = "steamlit/images/rockyou/crackedpw_train_cut_repair_normalverteilung_passwortlänge.jpg"
+image = "streamlit/images/rockyou/crackedpw_train_cut_repair_normalverteilung_passwortlänge.jpg"
 col13.image(image, caption='Verteilung der Passwortlänge der geknackten Passwörter', use_column_width=True)
 
 col14.markdown(

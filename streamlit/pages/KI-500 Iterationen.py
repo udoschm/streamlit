@@ -73,7 +73,7 @@ col6.markdown(
 
 col7, col8 = st.columns(2)
 
-image = "steamlit/images/500k/500k_utf-8_repair_pw_complexity.jpg"
+image = "streamlit/images/500k/500k_utf-8_repair_pw_complexity.jpg"
 col7.image(image, caption='Passwortkomplexität aller Passwörter in der generierten Liste', use_column_width=True)
 
 col8.markdown(
@@ -87,7 +87,7 @@ Passwörter mit einer Entropie von mehr als 80 existieren nicht.
 
 col9, col10 = st.columns(2)
 
-image = "steamlit/images/500k/crackedpw_ai_500k_cut_repair_pw_complexity.jpg"
+image = "streamlit/images/500k/crackedpw_ai_500k_cut_repair_pw_complexity.jpg"
 col9.image(image, caption='Passwortkomplexität der geknackten Passwörter', use_column_width=True)
 
 col10.markdown(
@@ -101,7 +101,7 @@ Man kann also festhalten, dass die KI mit 500 000 Iterationen hauptsächlich seh
 
 col11, col12 = st.columns(2)
 
-image = "steamlit/images/500k/500k_utf-8_repair_normalverteilung_passwortlänge.jpg"
+image = "streamlit/images/500k/500k_utf-8_repair_normalverteilung_passwortlänge.jpg"
 col11.image(image, caption='Verteilung der Passwortlänge in der Hashcat generierten Liste', use_column_width=True)
 
 col12.markdown(
@@ -117,7 +117,7 @@ hier eine sehr ähnliche Verteilung generiert.
 
 col13, col14 = st.columns(2)
 
-image = "steamlit/images/500k/crackedpw_ai_500k_cut_repair_normalverteilung_passwortlänge.jpg"
+image = "streamlit/images/500k/crackedpw_ai_500k_cut_repair_normalverteilung_passwortlänge.jpg"
 col13.image(image, caption='Verteilung der Passwortlänge der geknackten Passwörter', use_column_width=True)
 
 col14.markdown(

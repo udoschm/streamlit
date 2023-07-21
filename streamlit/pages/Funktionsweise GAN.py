@@ -47,7 +47,7 @@ st.markdown(
     """
 )
 
-image = "steamlit/images/GAN.png"
+image = "streamlit/images/GAN.png"
 st.image(image, caption='GAN Struktur', use_column_width=True)
 
 st.markdown(

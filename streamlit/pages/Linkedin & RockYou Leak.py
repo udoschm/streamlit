@@ -63,10 +63,10 @@ col2.markdown(
 
 col3, col4 = st.columns(2)
 
-image = "steamlit/images/linkedin_rockyou/linkedin_pwlänge.jpg"
+image = "streamlit/images/linkedin_rockyou/linkedin_pwlänge.jpg"
 col3.image(image, caption='LinkedIn', use_column_width=True)
 
-image = "steamlit/images/linkedin_rockyou/train_utf-8_repair_normalverteilung_passwortlänge.jpg"
+image = "streamlit/images/linkedin_rockyou/train_utf-8_repair_normalverteilung_passwortlänge.jpg"
 col4.image(image, caption='RockYou', use_column_width=True)
 
 

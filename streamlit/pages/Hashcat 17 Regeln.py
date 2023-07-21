@@ -105,7 +105,7 @@ col6.markdown(
 
 col7, col8 = st.columns(2)
 
-image = "steamlit/images/hc_top10/hc_best15_sort_utf-8_repair_pw_complexity.jpg"
+image = "streamlit/images/hc_top10/hc_best15_sort_utf-8_repair_pw_complexity.jpg"
 col7.image(image, caption='Passwortkomplexität aller Passwörter in der generierten Liste', use_column_width=True)
 
 col8.markdown(
@@ -120,7 +120,7 @@ Mit dieser Passwortliste konnten insgesamt 5 386 630 Passwörter erraten werden,
 
 col9, col10 = st.columns(2)
 
-image = "steamlit/images/hc_top10/crackedpw_hc_best15_sort_cut_repair_pw_complexity.jpg"
+image = "streamlit/images/hc_top10/crackedpw_hc_best15_sort_cut_repair_pw_complexity.jpg"
 col9.image(image, caption='Passwortkomplexität der geknackten Passwörter', use_column_width=True)
 
 col10.markdown(
@@ -136,7 +136,7 @@ Passwort zu erraten höher ist, da es weniger Möglichkeiten gibt.
 
 col11, col12 = st.columns(2)
 
-image = "steamlit/images/hc_top10/hc_best15_sort_utf-8_repair_normalverteilung_passwortlänge.jpg"
+image = "streamlit/images/hc_top10/hc_best15_sort_utf-8_repair_normalverteilung_passwortlänge.jpg"
 col11.image(image, caption='Verteilung der Passwortlänge in der Hashcat generierten Liste', use_column_width=True)
 
 col12.markdown(
@@ -156,7 +156,7 @@ Die Qualität der Passwörter muss natürlich mit berücksichtigt werden.
 
 col13, col14 = st.columns(2)
 
-image = "steamlit/images/hc_top10/crackedpw_hc_best15_sort_cut_repair_normalverteilung_passwortlänge.jpg"
+image = "streamlit/images/hc_top10/crackedpw_hc_best15_sort_cut_repair_normalverteilung_passwortlänge.jpg"
 col13.image(image, caption='Verteilung der Passwortlänge der geknackten Passwörter', use_column_width=True)
 
 col14.markdown(

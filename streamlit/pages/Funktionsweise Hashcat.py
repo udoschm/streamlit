@@ -25,7 +25,7 @@ st.markdown(
 )
 
 
-image = "steamlit/images/hc_logo.jpg"
+image = "streamlit/images/hc_logo.jpg"
 st.image(image, caption='Hashcat Logo', width=450)
 
 st.markdown(

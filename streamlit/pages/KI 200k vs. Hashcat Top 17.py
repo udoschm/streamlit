@@ -60,9 +60,9 @@ col99.markdown(
 col1, col2 = st.columns(2)
 
 # Lade die beiden Bilder
-image2_path = "steamlit/images/200k_utf-8_repair_normalverteilung_passwortlänge.jpg"
-image1_path = "steamlit/images/train_utf-8_repair_normalverteilung_passwortlänge.jpg"
-image3_path = "steamlit/images/crackedpw_ai_200k_cut_repair_normalverteilung_passwortlänge.jpg"
+image2_path = "streamlit/images/200k_utf-8_repair_normalverteilung_passwortlänge.jpg"
+image1_path = "streamlit/images/train_utf-8_repair_normalverteilung_passwortlänge.jpg"
+image3_path = "streamlit/images/crackedpw_ai_200k_cut_repair_normalverteilung_passwortlänge.jpg"
 
 col2.markdown(
     """      
@@ -91,9 +91,9 @@ if selected_image == "Längenverteilung gefundene Passwörter":
 # Picture and Text
 col3, col4 = st.columns(2)
 
-image1_path = "steamlit/images/hc_best15_sort_utf-8_repair_normalverteilung_passwortlänge.jpg"
-image2_path = "steamlit/images/train_utf-8_repair_normalverteilung_passwortlänge.jpg"
-image3_path = "steamlit/images/crackedpw_hc_best15_sort_cut_repair_normalverteilung_passwortlänge.jpg"
+image1_path = "streamlit/images/hc_best15_sort_utf-8_repair_normalverteilung_passwortlänge.jpg"
+image2_path = "streamlit/images/train_utf-8_repair_normalverteilung_passwortlänge.jpg"
+image3_path = "streamlit/images/crackedpw_hc_best15_sort_cut_repair_normalverteilung_passwortlänge.jpg"
 
 col4.markdown(
     """      
@@ -122,9 +122,9 @@ if selected_image == "Längenverteilung gefundene Passwörter":
 # Picture and Text
 col5, col6 = st.columns(2)
 
-image1_path = "steamlit/images/200k_utf-8_repair_pw_complexity.jpg"
-image2_path = "steamlit/images/train_utf-8_repair_pw_complexity.jpg"
-image3_path = "steamlit/images/crackedpw_ai_200k_cut_repair_pw_complexity.jpg"
+image1_path = "streamlit/images/200k_utf-8_repair_pw_complexity.jpg"
+image2_path = "streamlit/images/train_utf-8_repair_pw_complexity.jpg"
+image3_path = "streamlit/images/crackedpw_ai_200k_cut_repair_pw_complexity.jpg"
 
 col6.markdown(
     """
@@ -171,9 +171,9 @@ if selected_image == "Passworkomplexität gefundene Passwörter":
 # Picture and Text
 col7, col8 = st.columns(2)
 
-image1_path = "steamlit/images/hc_best15_sort_utf-8_repair_pw_complexity.jpg"
-image2_path = "steamlit/images/train_utf-8_repair_pw_complexity.jpg"
-image3_path = "steamlit/images/crackedpw_hc_best15_sort_cut_repair_pw_complexity.jpg"
+image1_path = "streamlit/images/hc_best15_sort_utf-8_repair_pw_complexity.jpg"
+image2_path = "streamlit/images/train_utf-8_repair_pw_complexity.jpg"
+image3_path = "streamlit/images/crackedpw_hc_best15_sort_cut_repair_pw_complexity.jpg"
 
 col8.markdown(
     """
