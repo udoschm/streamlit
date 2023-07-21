@@ -132,7 +132,7 @@ nicht verwunderlich.
 col15, col16 = st.columns(2)
 col17, col18 = st.columns(2)
 
-if col15.button("Ab zur Hashcat KI mit 570k Iterationen"):
+if col15.button("Ab zur KI mit 570k Iterationen"):
     switch_page("KI-750 Iterationen")
 if col17.button("Zurück"):
     switch_page("Home")
