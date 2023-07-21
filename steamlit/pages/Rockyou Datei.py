@@ -61,9 +61,9 @@ col5.markdown(
 
 col6.markdown(
     """Die `rockyou.txt`-Datei wurde zum Trainieren der KI verwendet, als auch für die regelbasierten Angriffe bei 
-    Hashcat. Es wurde deshalb überprüft wie viele Passwörter diese Passwortliste ohne weitere Veränderungen knacken 
+    Hashcat. Es wurde deshalb überprüft, wie viele Passwörter diese Passwortliste ohne weitere Veränderungen knacken 
     kann. \n In den folgenden Absätzen wird der Begriff Entropie angesprochen, dies ist ein Wert welcher die Stärke 
-    eines Passwortes definiert. Um so höher Entropie Wert ist, um so sicherer wird ein Passwort angesehen. Der 
+    eines Passwortes definiert. Um so höher Entropie-Wert ist, um so sicherer wird ein Passwort angesehen. Der 
     Passwortmanager KeePass stuft die Sicherheit der Passwörter wie folgt ein (siehe linke Tabelle)."""
 )
 
@@ -75,11 +75,8 @@ col7.image(image, caption='Passwortkomplexität aller Passwörter in der generie
 col8.markdown(
     """
     Dieses Balkendiagramm zeigt die jeweilige Entropie, welche die Passwörter besitzen.
-    Man kann erkenn das die RockYou-Datei viele Passwörter mit niedriger Entropie besitzt.
+    Man kann erkennen, dass die RockYou-Datei viele Passwörter mit niedriger Entropie besitzt.
     Über 50% der Passwörter besitzen eine Entropie, welche kleiner 20 ist.
-
-
-
 """
 )
 
@@ -91,9 +88,9 @@ col9.image(image, caption='Passwortkomplexität der geknackten Passwörter', use
 col10.markdown(
     """ 
 Wir gehen nun zur Verteilung über, welche die Passwörter beinhaltet, die die RockYou-Datei geschafft hat zu cracken.
-Auch diese Verteilung ist ähnlich zu der kompletten Liste. Fast 50% der Passwörter die gefunden wurden besitzt eine 
+Auch diese Verteilung ist ähnlich zu der kompletten Liste. Fast 50% der Passwörter, die gefunden wurden, besitzt eine 
 Entropie, welche kleiner ist als 20. Über 35% der Passwörter besitzen eine Entropie kleiner 40.
-Insgesamt hat die RockYou-Liste 4,85% aller Passwörter, welche in dem LinkedIN-Leak enthalten sind, geschafft zu knacken.
+Insgesamt hat die RockYou-Liste 4,85% aller Passwörter, welche in dem LinkedIn-Leak enthalten sind, geschafft zu knacken.
 
 """
 )
@@ -106,7 +103,7 @@ col11.image(image, caption='Verteilung der Passwortlänge in der Hashcat generie
 col12.markdown(
     """    
 In dieser Abbildung ist die Längenverteilung der kompletten 'rockyou.txt'-Datei zu sehen.
-Man kann erkennen das sich die RockYou-Liste sich hauptsächlich auf kürzere Passwörter konzentriert.
+Man kann erkennen, dass sich die RockYou-Liste sich hauptsächlich auf kürzere Passwörter konzentriert.
 Lediglich 9,13% der Passwörter sind länger als 10 Zeichen.
 """
 )
@@ -119,7 +116,7 @@ col13.image(image, caption='Verteilung der Passwortlänge der geknackten Passwö
 col14.markdown(
     """
     Es ist hier die Verteilung der Passwörter dargestellt, welche mithilfe der RockYou-Datei geknackt werden konnten.
-    Wenn man das Diagramm, mit dem der kompletten Liste vergleicht, sieht man das die Längenverteilung sehr ähnlich ist.
+    Wenn man das Diagramm, mit dem der kompletten Liste vergleicht, sieht man, dass die Längenverteilung sehr ähnlich ist.
 
 """
 )
