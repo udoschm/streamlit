@@ -37,23 +37,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 st.divider()
-st.markdown(
-    """
-    ## Vergleich zwischen Hashcat und PassGAN
-    In diesem Abschnitt sind die Ergebnisse dieser Projektarbeit. Es wird Hashcat und PassGAN verglichen. Für diese 
-    Ergebnisse wurde die Künstliche Intelligenz bis zur bestmöglichen Qualität trainiert. Einerseits wurde PassGAN mit 
-    der von uns erweiterten Top 10 Liste verglichen. Der zweite Vergleich Ist gegen die von Hashcat veröffentlichte Best
-    64 Liste. Diese beinhaltet die Besten 64 Regeln von Hashcat.
-    """
-)
 
-hc200, hc201 = st.columns(2)
-if hc200.button("KI 200k vs. Hashcat Top 17"):
-    switch_page("KI 200k vs. Hashcat Top 17")
-if hc201.button("KI 200k vs. Hashcat Best 64"):
-    switch_page("KI 200k vs. Hashcat Best 64")
-
-st.divider()
 st.markdown(
     """
     ## Was ist Hashcat und PassGAN? 
@@ -68,13 +52,29 @@ if col7.button("Funktionsweise GAN"):
     switch_page("Funktionsweise GAN")
 if col8.button("Funktionsweise Hashcat"):
     switch_page("Funktionsweise Hashcat")
+
 st.divider()
+st.markdown(
+    """
+    ## Vergleich zwischen Hashcat und PassGAN
+    In diesem Abschnitt sind die Ergebnisse dieser Projektarbeit. Es wird Hashcat und PassGAN verglichen. Für diese 
+    Ergebnisse wurde die Künstliche Intelligenz bis zur bestmöglichen Qualität trainiert. Einerseits wurde PassGAN mit 
+    der von uns erweiterten Top 10 Liste verglichen. Der zweite Vergleich Ist gegen die von Hashcat veröffentlichte Best
+    64 Liste. Diese beinhaltet die Besten 64 Regeln von Hashcat.
+    """
+)
+
+if st.button("KI 200k vs. Hashcat Top 17"):
+    switch_page("KI 200k vs. Hashcat Top 17")
+
+st.divider()
+
 
 st.markdown(
     """
     ## Mehr Daten!
     Hier sind alle Daten für sich zu finden, ohne mit anderen Verglichen zu werden. Außerdem wird hier die 
-    Trainingsdatei `rockyou.txt` und die Datei, die Angegriffen wurde gezeigt und beschrieben. 
+    Trainingsdatei `rockyou.txt` und die Datei, die Angegriffen wurde, gezeigt und beschrieben. 
     """
 )
 
