@@ -165,7 +165,7 @@ if selected_image == "Passwörtkomplexität PassGAN":
 if selected_image == "Passwörtkomplexität rockyou.txt":
     col5.image(image2_path, caption="Passwörtkomplexität rockyou.txt", use_column_width=True)
 if selected_image == "Passworkomplexität gefundene Passwörter":
-    col5.image(image3_path, caption="Passworkomplexität gefundene Passwörter", use_column_width=True)
+    col5.image(image3_path, caption="Passworkomplexität gefundene Passwörter (PassGAN)", use_column_width=True)
 
 
 # Picture and Text
@@ -196,7 +196,7 @@ if selected_image == "Passwörtkomplexität Hashcat":
 if selected_image == "Passwörtkomplexität rockyou.txt":
     col7.image(image2_path, caption="Passwörtkomplexität rockyou.txt", use_column_width=True)
 if selected_image == "Passworkomplexität gefundene Passwörter":
-    col7.image(image3_path, caption="Passworkomplexität gefundene Passwörter", use_column_width=True)
+    col7.image(image3_path, caption="Passworkomplexität gefundene Passwörter (Hashcat)", use_column_width=True)
 
 col9, col10 = st.columns(2)
 
