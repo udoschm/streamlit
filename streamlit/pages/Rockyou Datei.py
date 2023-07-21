@@ -63,7 +63,7 @@ col6.markdown(
     """Die `rockyou.txt`-Datei wurde zum Trainieren der KI verwendet, als auch für die regelbasierten Angriffe bei 
     Hashcat. Es wurde deshalb überprüft, wie viele Passwörter diese Passwortliste ohne weitere Veränderungen knacken 
     kann. \n In den folgenden Absätzen wird der Begriff Entropie angesprochen, dies ist ein Wert welcher die Stärke 
-    eines Passwortes definiert. Um so höher Entropie-Wert ist, um so sicherer wird ein Passwort angesehen. Der 
+    eines Passwortes definiert. Um so höher Entropie-Wert ist, desto sicherer ist ein Passwort. Der 
     Passwortmanager KeePass stuft die Sicherheit der Passwörter wie folgt ein (siehe linke Tabelle)."""
 )
 
@@ -87,8 +87,8 @@ col9.image(image, caption='Passwortkomplexität der geknackten Passwörter', use
 
 col10.markdown(
     """ 
-Wir gehen nun zur Verteilung über, welche die Passwörter beinhaltet, die die RockYou-Datei geschafft hat zu cracken.
-Auch diese Verteilung ist ähnlich zu der kompletten Liste. Fast 50% der Passwörter, die gefunden wurden, besitzt eine 
+Wir gehen nun zur Verteilung über, welche die Passwörter beinhalten, die die RockYou-Datei geschafft hat zu cracken.
+Auch diese Verteilung ist ähnlich zu der kompletten Liste. Fast 50% der Passwörter, die gefunden wurden, besitzen eine 
 Entropie, welche kleiner ist als 20. Über 35% der Passwörter besitzen eine Entropie kleiner 40.
 Insgesamt hat die RockYou-Liste 4,85% aller Passwörter, welche in dem LinkedIn-Leak enthalten sind, geschafft zu knacken.
 
@@ -115,7 +115,7 @@ col13.image(image, caption='Verteilung der Passwortlänge der geknackten Passwö
 
 col14.markdown(
     """
-    Es ist hier die Verteilung der Passwörter dargestellt, welche mithilfe der RockYou-Datei geknackt werden konnten.
+    Es ist hier die Verteilung der Passwortlängen dargestellt, welche mithilfe der RockYou-Datei geknackt werden konnten.
     Wenn man das Diagramm, mit dem der kompletten Liste vergleicht, sieht man, dass die Längenverteilung sehr ähnlich ist.
 
 """

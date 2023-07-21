@@ -66,7 +66,7 @@ col6.markdown(
     Auf dieser Seite werden die Ergebnisse der Künstlichen Intelligenz mit 200 Tausend Iterationen thematisiert.
     Diese hat das beste Ergebnis bei den verschiedenen Iterationen geliefert.
     In den folgenden Absätzen wird der Begriff Entropie angesprochen, dies ist ein Wert, welcher 
-    die Stärke eines Passwortes definiert. Um so höher Entropie-Wert ist, um so sicherer wird ein Passwort angesehen.
+    die Stärke eines Passwortes definiert. Umso höher Entropie-Wert ist, desto sicherer wird ein Passwort.
     Der Passwortmanager KeePass stuft die Sicherheit der Passwörter wie folgt ein (siehe linke Tabelle).
 """
 )
@@ -92,7 +92,7 @@ col9.image(image, caption='Passwortkomplexität der geknackten Passwörter', use
 
 col10.markdown(
     """ 
-Dies spiegelt sich auch im Ergebnis wider, 77,27% der geknackten Passwörter besitzt eine Entropie von unter 20.
+Dies spiegelt sich auch im Ergebnis wider, 77,27% der geknackten Passwörter besitzen eine Entropie von unter 20.
 Es werden keine Passwörter mit einer Entropie von über 40 gefunden.
 Man kann also festhalten, dass die KI mit 200 000 Iterationen hauptsächlich sehr schwache Passwörter gefunden hat.
 """
@@ -107,8 +107,7 @@ col12.markdown(
     """    
 Die Ergebnisse aus der Entropie lassen sich auch aus der Längenverteilung ableiten, auch hier sieht man das die 
 Künstliche Intelligenz hauptsächlich kurze Passwörter generiert hat.
-Der Grund hierfür ist die Input-Datei, welche die 'rockyou.txt' war. Diese besitzt eine ähnliche Verteilung, die KI hat
-hier eine sehr ähnliche Verteilung generiert.
+Der Grund hierfür ist die Input-Datei, welche die 'rockyou.txt' war. Diese besitzt eine ähnliche Verteilung.
 """
 )
 
@@ -121,9 +120,9 @@ col13.image(image, caption='Verteilung der Passwortlänge der geknackten Passwö
 
 col14.markdown(
     """
-Diese Abbildung zeigt die Längenverteilung der Ergebnisse, welche die KI erzielt hat, auf.
+Diese Abbildung zeigt die Längenverteilung der Ergebnisse, welche die KI in der LinkedIN Datei gefunden hat.
 Man kann festhalten das fast ausschließlich Passwörter der Länge 6 - 9 und einige wenige der Länge 10 oder mehr gefunden
-worden sind. Da die Datei, welche zum Cracken benutzt wurde, schon eine ähnliche Verteilung ausweist, ist diese Verteilung 
+worden sind. Da die Datei, welche zum Cracken benutzt wurde, eine ähnliche Verteilung aufweist, ist diese Verteilung 
 nicht verwunderlich.
 """
 )

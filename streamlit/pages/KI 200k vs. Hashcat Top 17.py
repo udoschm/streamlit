@@ -47,12 +47,10 @@ col0.markdown(
 
 
 col99.markdown(
-    """
-    Hier werden die Ergebnisse von Hashcat und PassGAN verglichen und die Ergebnisse erläutert. Es wurden 200 Millionen
+    """Hier werden die Ergebnisse von Hashcat und PassGAN verglichen und diese erläutert. Es wurden 200 Millionen 
     Passwörter sowohl von der KI als auch von Hashcat erzeugt. Diese wurden dann gegen die LinkedIn Liste verglichen. 
-    Hashcat konnte mehr als doppelt so viele Passwörter mit den 17 Regeln wieder herstellen als die von PassGAN 
-    generierte Liste.
-    """
+    Hashcat konnte mehr als doppelt so viele Passwörter mit den verwendeten 17 Regeln wieder herstellen als die von 
+    PassGAN generierte Liste."""
 )
 
 
@@ -68,9 +66,9 @@ col2.markdown(
     """      
     ## Längenverteilung Passwörter PassGAN
     Die Längenverteilung der Passwörter, die von PassGAN generiert wurden, orientiert sich sehr stark an der 
-    `rockyou.txt`. Um also ein Ergebnis zu bekommen, dass alle Paswortlängen gleichermaßen abdeckt, ist es wichtig eine
+    `rockyou.txt`. Um also ein Ergebnis zu bekommen, dass alle Passwortlängen gleichermaßen abdeckt, ist es wichtig eine
     Datei für das Training zu verwenden, die relativ gleich verteilt ist. Es könnte auch von Vorteil sein, sich vorher zu
-    informieren, wie die Passwortrichtlinien des Unternehmens sind, von der die Datei stammt, die angegriffen  werden 
+    informieren, wie die Passwortrichtlinien des Unternehmens sind, von der die Datei stammt, die angegriffen werden 
     soll.
     """
 )

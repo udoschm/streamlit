@@ -95,8 +95,8 @@ col5.markdown(
 
 col6.markdown(
     """
-    In den folgenden Absätzen wird der Begriff Entropie angesprochen, dies ist ein Wert, welcher 
-    die Stärke eines Passwortes definiert. Um so höher Entropie-Wert ist, um so sicherer wird ein Passwort angesehen.
+     In den folgenden Absätzen wird der Begriff Entropie angesprochen, dies ist ein Wert, welcher 
+    die Stärke eines Passwortes definiert. Um so höher Entropie-Wert ist, desto sicherer ist ein Passwort.
     Der Passwortmanager KeePass stuft die Sicherheit der Passwörter wie folgt ein (siehe linke Tabelle).
 """
 )
@@ -129,10 +129,7 @@ Es wurde hier das beste Ergebnis des kompletten Projekts erzielt.
 Mit dieser Passwortliste konnten  11 024 306 Passwörter, was 18.22% entspricht, in Klartext umgewandelt werden.
 Man kann hier deutlich erkennen, dass viele Passwörter mit einer Entropie von unter 20 geknackt wurden.
 Wenn man die obere Abbildung mit dieser vergleicht, lässt sich ein Zusammenhang feststellen.
-Die Graphen schlagen bei der gleichen Entropie werden aus.
-Das ist natürlich nicht verwunderlich, wenn in der Passwortliste, welche zum Knacken benutzt wurde, viele Passwörter
-mit Entropie 30 sind das auch viele Passwörter mit einer Entropie von 30 gefunden worden.
-
+Dieser Graph sieht dem der kompletten best64-Liste ähnlich.
 """
 )
 
@@ -144,8 +141,8 @@ col11.image(image, caption='Verteilung der Passwortlänge in der Hashcat generie
 col12.markdown(
     """    
 Es ist hier die Längenverteilung der Passwörter in der Passwortliste, welche mit der best64-Regel erstellt wurde, zu
-sehen. Man kann hier eine relativ schöne Normalverteilung sehen. Das Hoch ist bei der Passwortlänge 10 mit 16,77%.
-Eine normal verteile Liste ist gut, es Passwörter mit jeder Länge enthält, aber im mittleren Bereich am meisten 
+sehen. Man kann hier eine relativ schöne Normalverteilung sehen. Das Hoch ist bei der Passwortlänge 9 mit 16,77%.
+Eine normal verteile Liste ist gut, da es Passwörter mit jeder Länge enthält, aber im mittleren Bereich am meisten 
 Passwörter beinhaltet.
 """
 )
@@ -160,7 +157,7 @@ col13.image(image, caption='Verteilung der Passwortlänge der geknackten Passwö
 col14.markdown(
     """
     Es ist hier die Verteilung der Passwörter dargestellt, welche mithilfe der best64-Liste geknackt werden konnten.
-    Man kann deutlich erkennen, dass vor allem Passwörter mit der Länge 6 bis 10 geknackt worden.
+    Man kann deutlich erkennen, dass vor allem Passwörter mit der Länge 6 bis 10 geknackt wurden.
     Auch die ursprüngliche Liste hatte viele Passwörter in diesem Bereich, das Ergebnis ist also nicht verwunderlich.
 
 """

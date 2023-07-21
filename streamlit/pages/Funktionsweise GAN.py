@@ -28,7 +28,7 @@ st.markdown(
     
     ## Diskriminator 
     Der Diskriminator ist in ein Klassifizierer. Er versucht zwischen echten Passwörtern und den Passwörtern, die vom 
-    Generator erzeugt wurden, unterscheiden. Der Diskriminator muss allerdings trainiert werden. Das passiert, indem der
+    Generator erzeugt wurden, zu unterscheiden. Der Diskriminator muss allerdings trainiert werden. Das passiert, indem der
     Generator versucht Passwörter zu erzeugen oder ein Passwort aus der Trainingsdatei genommen wird. Dann versucht der 
     Diskriminator zu erraten, ob das Passwort echt oder generiert wurde.\
     

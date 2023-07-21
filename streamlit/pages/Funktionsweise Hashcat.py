@@ -30,11 +30,11 @@ st.image(image, caption='Hashcat Logo', width=450)
 
 st.markdown(
     """
-   Es unterstützt insgesamt fünf verschiedene Angriffsmodus und über 300 hochoptimierte Hashing-Algorithmen. 
+   Es unterstützt insgesamt fünf verschiedene Angriffsmodi und über 300 hochoptimierte Hashing-Algorithmen. 
    Hashcat wird allerdings nicht nur zur Passwortwiederherstellung verwendet, sondern auch bei Penetrationstests.
    Außerdem wird das Tool auch von Cyberkriminellen genutzt.
    
-   Passwörter sind eine gängige Methode, um sich zu authentifizieren, um seine Identität nachzuweisen, beispielsweise
+   Passwörter sind eine gängige Methode, um seine Identität nachzuweisen, beispielsweise
    bei der Anmeldung an einem Computer. Das Passwort wird in der Regel allerdings nicht als Klartext abgespeichert, 
    sondern als Hashwert, was zu mehr Sicherheit beitragen soll.
    Dieser Hashwert wird durch eine Hashfunktion berechnet (beispielsweise SHA256), Hashfunktionen sind 
@@ -54,7 +54,7 @@ st.markdown(
    
    In diesem Projekt wurden regelbasierte Angriffe & Wörterbuchangriffe verwendet, um zu versuchen, möglichst viele
    Passwörter zu knacken.
-   Die Passwortliste 'rockyou.txt' wurde mit Regeln vergrößert und anschließend diese Liste durchprobiert.
+   Die Passwortliste 'rockyou.txt' wurde mit Regeln vergrößert und anschließend gegen den LinkedIn Leak verglichen.
    
    
    """,

@@ -97,7 +97,7 @@ col5.markdown(
 col6.markdown(
     """
     In den folgenden Absätzen wird der Begriff Entropie angesprochen, dies ist ein Wert, welcher 
-    die Stärke eines Passwortes definiert. Um so höher Entropie-Wert ist, um so sicherer wird ein Passwort angesehen.
+    die Stärke eines Passwortes definiert. Um so höher Entropie-Wert ist, desto sicherer ist ein Passwort.
     Der Passwortmanager KeePass stuft die Sicherheit der Passwörter wie folgt ein (siehe linke Tabelle).
 """
 )
@@ -128,8 +128,8 @@ col10.markdown(
 Das hier links dargestellte Diagramm zeigt die Entropie der geknackten Passwörter auf.       
 Man kann hier deutlich erkennen, dass fast ausnahmslos Passwörter mit einer sehr schwachen Entropie geknackt wurden.
 Dies hat den Hintergrund, dass sich die Verteilung in der generierten Passwortliste auch hauptsächlich in diesem Bereich
-bewegt. Ein weiterer möglicher Grund ist, es das schwache Passwörter leichter gecrackt werden können. Dies liegt daran, 
-dass ein Passwort mit niedriger Entropie einen kleineren Zeichenraum besitzen und somit die Wahrscheinlichkeit das 
+bewegt. Ein weiterer möglicher Grund ist, dass schwache Passwörter leichter gecrackt werden können. Dies liegt daran, 
+dass ein Passwort mit niedriger Entropie einen kleineren Zeichenraum besitzt und somit die Wahrscheinlichkeit das 
 Passwort zu erraten höher ist, da es weniger Möglichkeiten gibt.
 """
 )

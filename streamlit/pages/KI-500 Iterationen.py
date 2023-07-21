@@ -65,7 +65,7 @@ col6.markdown(
     """
     Auf dieser Seite werden die Ergebnisse der Künstlichen Intelligenz mit 500 Tausend Iterationen thematisiert.
     In den folgenden Absätzen wird der Begriff Entropie angesprochen, dies ist ein Wert, welcher 
-    die Stärke eines Passwortes definiert. Um so höher Entropie-Wert ist, um so sicherer wird ein Passwort angesehen.
+    die Stärke eines Passwortes definiert. Um so höher Entropie-Wert ist, desto sicherer ist ein Passwort.
     Der Passwortmanager KeePass stuft die Sicherheit der Passwörter wie folgt ein (siehe linke Tabelle).
 """
 )
@@ -80,7 +80,7 @@ col8.markdown(
     """
 In der dieser Abbildung ist die Passwortkomplexität der generierten Passwortliste in Entropie-Bits dargestellt.
 Es ist sehr deutlich zu sehen, dass die generierten Passwörter eine sehr schwache Entropie aufweisen, 50,49% aller 
-Passwörter besitzt eine Entropie von unter 20. 32,72% der Passwörter weisen eine Entropie von unter 30 Entropie-Bits auf.
+Passwörter besitzen eine Entropie von unter 20. 32,72% der Passwörter weisen eine Entropie von unter 30 Entropie-Bits auf.
 Passwörter mit einer Entropie von mehr als 80 existieren nicht.
 """
 )
@@ -108,8 +108,7 @@ col12.markdown(
     """    
 Die Ergebnisse aus der Entropie lassen sich auch aus der Längenverteilung ableiten, auch hier sieht man das die 
 Künstliche Intelligenz hauptsächlich kurze Passwörter generiert hat.
-Der Grund hierfür ist die Input-Datei, welche die 'rockyou.txt' war. Diese besitzt eine ähnliche Verteilung, die KI hat
-hier eine sehr ähnliche Verteilung generiert.
+Der Grund hierfür ist die Input-Datei, welche die 'rockyou.txt' war. Diese besitzt eine ähnliche Verteilung.
 """
 )
 
@@ -124,7 +123,7 @@ col14.markdown(
     """
 Diese Abbildung zeigt die Längenverteilung der Ergebnisse, welche die KI erzielt hat, auf.
 Man kann festhalten das fast ausschließlich Passwörter der Länge 6 - 9 und einige wenige der Länge 10 oder mehr gefunden
-worden sind. Da die Datei, welche zum Cracken benutzt, wurde schon eine ähnliche Verteilung ausweist, ist diese Verteilung 
+wurden. Da die Datei, welche zum Cracken benutzt, wurde schon eine ähnliche Verteilung ausweist, ist dieses Ergebnis 
 nicht verwunderlich.
 """
 )
@@ -132,7 +131,7 @@ nicht verwunderlich.
 col15, col16 = st.columns(2)
 col17, col18 = st.columns(2)
 
-if col15.button("Ab zur KI mit 570k Iterationen"):
+if col15.button("Ab zur KI mit 750k Iterationen"):
     switch_page("KI-750 Iterationen")
 if col17.button("Zurück"):
     switch_page("Home")

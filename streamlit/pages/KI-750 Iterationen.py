@@ -65,7 +65,7 @@ col6.markdown(
     """
     Auf dieser Seite werden die Ergebnisse der Künstlichen Intelligenz mit 750 Tausend Iterationen thematisiert.
     In den folgenden Absätzen wird der Begriff Entropie angesprochen, dies ist ein Wert, welcher 
-    die Stärke eines Passwortes definiert. Um so höher Entropie-Wert ist, um so sicherer wird ein Passwort angesehen.
+    die Stärke eines Passwortes definiert. Um so höher Entropie-Wert ist, desto sicherer ist ein Passwort.
     Der Passwortmanager KeePass stuft die Sicherheit der Passwörter wie folgt ein (siehe linke Tabelle).
 """
 )
@@ -80,7 +80,7 @@ col8.markdown(
     """
 In der dieser Abbildung ist die Passwortkomplexität der generierten Passwortliste in Entropie-Bits dargestellt.
 Es ist sehr deutlich zu sehen, dass die generierten Passwörter eine sehr schwache Entropie aufweisen, 48,93% aller 
-Passwörter besitzt eine Entropie von unter 20. 32,42% der Passwörter weisen eine Entropie von unter 30 Entropie-Bits auf.
+Passwörter besitzen eine Entropie von unter 20. 32,42% der Passwörter weisen eine Entropie von unter 30 Entropie-Bits auf.
 Passwörter mit einer Entropie von mehr als 90 existieren nicht.
 """
 )
@@ -92,7 +92,7 @@ col9.image(image, caption='Passwortkomplexität der geknackten Passwörter', use
 
 col10.markdown(
     """ 
-Dies spiegelt sich auch im Ergebnis wider, 73,40% der geknackten Passwörter besitzt eine Entropie von unter 20.
+Dies spiegelt sich auch im Ergebnis wider, 73,40% der geknackten Passwörter besitzen eine Entropie von unter 20.
 Es werden keine Passwörter mit einer Entropie von über 50 gefunden.
 Bei den Ergebnissen der KI mit 200 und 500 Tausend Iterationen zeichnet sich ein ähnliches Bild ab.
 Man kann also festhalten, dass die KI mit 750 000 Iterationen hauptsächlich sehr schwache Passwörter gefunden hat.
@@ -108,8 +108,7 @@ col12.markdown(
     """    
 Die Ergebnisse aus der Entropie lassen sich auch aus der Längenverteilung ableiten, auch hier sieht man das die 
 Künstliche Intelligenz hauptsächlich kurze Passwörter generiert hat.
-Der Grund hierfür ist die Input-Datei, welche die 'rockyou.txt' war. Diese besitzt eine ähnliche Verteilung, die KI hat
-hier eine sehr ähnliche Verteilung generiert.
+Der Grund hierfür ist die Input-Datei, welche die 'rockyou.txt' war. Diese besitzt eine ähnliche Verteilung.
 """
 )
 
@@ -124,7 +123,7 @@ col14.markdown(
     """
 Diese Abbildung zeigt die Längenverteilung der Ergebnisse, welche die KI erzielt hat, auf.
 Man kann festhalten das fast ausschließlich Passwörter der Länge 6 - 9 und einige wenige der Länge 10 oder mehr gefunden
-worden sind. Da die Datei, welche zum Cracken benutzt, wurde schon eine ähnliche Verteilung ausweist, ist diese Verteilung 
+wurden. Da die Datei, welche zum Cracken benutzt, wurde schon eine ähnliche Verteilung ausweist, ist diese Verteilung 
 nicht verwunderlich.
 """
 )

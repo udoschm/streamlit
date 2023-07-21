@@ -43,7 +43,7 @@ st.divider()
 st.markdown(
     """
     ## Was ist Hashcat und PassGAN? 
-    Hier werden das Open-Source Tool Hashcat und PassGAN erklärt. Es gibt zu jeden Programm eine kurze Definition und 
+    Hier wird das Open-Source Tool Hashcat und PassGAN erklärt. Es gibt zu jedem Programm eine kurze Definition und 
     Erklärung, wie die beiden Programme eigentlich funktionieren.
     """
 )
@@ -60,9 +60,8 @@ st.markdown(
     """
     ## Vergleich zwischen Hashcat und PassGAN
     In diesem Abschnitt sind die Ergebnisse dieser Projektarbeit. Es wird Hashcat und PassGAN verglichen. Für diese 
-    Ergebnisse wurde die Künstliche Intelligenz bis zur bestmöglichen Qualität trainiert. Einerseits wurde PassGAN mit 
-    der von uns erweiterten Top 10 Liste verglichen. Der zweite Vergleich Ist gegen die von Hashcat veröffentlichte Best
-    64 Liste. Diese beinhaltet die Besten 64 Regeln von Hashcat.
+    Ergebnisse wurde die Künstliche Intelligenz bis zur bestmöglichen Qualität trainiert. Es wurde PassGAN mit 
+    der von uns erweiterten Top 10 Liste verglichen.
     """
 )
 
