@@ -32,7 +32,7 @@ col1.markdown(
 col1.markdown(
     """
     Die Linkedin Leak Liste wird in diesem Projekt als "Angriffsziel" verwendet. Hierfür wurden alle Passwörter mit dem 
-    Hashalgorithmus SHA256 gehasht. Damit wurde ein realistischeres Szenario erzeugt werden.Sie enthält rund 60 
+    Hashalgorithmus SHA256 gehasht. Damit wurde ein realistischeres Szenario erzeugt werden. Sie enthält rund 60 
     Millionen Passwörter. LinkedIn ist eine Online-Plattform, die sich auf berufliche Netzwerke und Karriereentwicklung 
     spezialisiert hat.\\
     In der folgenden Grafik ist die Längenverteilung der Passwörter des LinkedIn Leaks zu sehen. 

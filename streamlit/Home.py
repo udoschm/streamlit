@@ -36,6 +36,8 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+if st.button("Woher stammt die LinkedIn und RockYou Liste?"):
+    switch_page("Linkedin & RockYou Leak")
 st.divider()
 
 st.markdown(

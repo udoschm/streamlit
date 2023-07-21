@@ -34,14 +34,14 @@ st.markdown(
    Hashcat wird allerdings nicht nur zur Passwortwiederherstellung verwendet, sondern auch bei Penetrationstests.
    Außerdem wird das Tool auch von Cyberkriminellen genutzt.
    
-   Passwörter sind eine gängige Methode um sich zu authentifizieren, um seine Identität nachzuweisen, beispielsweise
+   Passwörter sind eine gängige Methode, um sich zu authentifizieren, um seine Identität nachzuweisen, beispielsweise
    bei der Anmeldung an einem Computer. Das Passwort wird in der Regel allerdings nicht als Klartext abgespeichert, 
    sondern als Hashwert, was zu mehr Sicherheit beitragen soll.
    Dieser Hashwert wird durch eine Hashfunktion berechnet (beispielsweise SHA256), Hashfunktionen sind 
    sogenannte Einwegfunktionen. Dies bedeutet, dass das Ergebnis nicht zurückgerechnet werden kann.
    Hier ein Beispiel:<br>
    Wenn das Wort "Passwort" in die SHA256-Hashfunktion geben wird, kommt folgender Hash heraus: 
-   "a36c101570cc4410993de5385ad7034adb2dae6a05139ac7672577803084634d". Es ist allerdings nicht möglich aus dem Hash
+   "a36c101570cc4410993de5385ad7034adb2dae6a05139ac7672577803084634d". Es ist allerdings nicht möglich, aus dem Hash
    das Wort "Passwort" zurückzurechnen.
    
    Hier kommt Hashcat ins Spiel, es versucht durch Ausprobieren heraus zu finden, welches Wort hinter dem Hash steckt.
@@ -52,7 +52,7 @@ st.markdown(
    * **Regelbasierte Angriffe**: <br>Eine Passwortliste wird durch bestimmte Regeln erweitert.
    * **Brute-Force-Angriffe**: <br>Es werden verschiedene Zeichenkombinationen ausprobiert.
    
-   In diesem Projekt wurden regelbasierte Angriffe & Wörterbuchangriffe verwendet, um zu versuchen möglichst viele
+   In diesem Projekt wurden regelbasierte Angriffe & Wörterbuchangriffe verwendet, um zu versuchen, möglichst viele
    Passwörter zu knacken.
    Die Passwortliste 'rockyou.txt' wurde mit Regeln vergrößert und anschließend diese Liste durchprobiert.
    
