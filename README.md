@@ -25,3 +25,5 @@ streamlit run streamlit/Home.py
 ```
 
 For more information, please visit the Streamlit website: https://docs.streamlit.io/library/get-started/installation
+
+You can also host the website online more information you can find her: https://blog.streamlit.io/host-your-streamlit-app-for-free/
